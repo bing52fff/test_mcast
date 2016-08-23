@@ -1,0 +1,4 @@
+g++ -c -o mcast_server.o mcast_server.cpp -g
+g++ -o mcast_server mcast_server.o -g
+g++ -c -o mcast_client.o mcast_client.cpp -g
+g++ -o mcast_client mcast_client.o -g
